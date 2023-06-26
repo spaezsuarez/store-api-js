@@ -1,0 +1,21 @@
+{
+  "name": "store-api",
+  "version": "1.0.0",
+  "description": "API para una tienda en linea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint"
+  },
+  "author": "Sergio David Paez Suarez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemin": "^1.0.1",
+    "prettier": "^2.8.8"
+  }
+}
